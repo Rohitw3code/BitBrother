@@ -11,37 +11,35 @@
         android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="50dp"
         android:layout_marginTop="200dp"
         android:gravity="center_horizontal"
-        android:text="Welcome To"/>
+        android:text="Welcome To"
+        android:textSize="50dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_below="@id/text1"
         android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bit"
-            android:textSize="60dp"
-            android:textColor="@android:color/holo_blue_dark"
-            android:layout_centerHorizontal="true"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Bit"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:text="Brothers"
-            android:textSize="50dp"
-            android:layout_centerHorizontal="true"/>
+            android:textSize="50dp" />
 
     </LinearLayout>
-
-
-
 
 
 </RelativeLayout>
