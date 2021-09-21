@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity {
                     relativeLayout.setAlpha(1f);
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
+                    finish();
                 }).addOnFailureListener(e -> {
                     relativeLayout.setAlpha(1f);
                     progressBar.setVisibility(View.GONE);
